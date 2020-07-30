@@ -3,7 +3,10 @@ function palindrome(str) {
                        .toLowerCase()
                        .split('');
     let checker = formatted.every((val,index) => val === formatted[formatted.length - index - 1]);
+    console.log(checker);
     return checker;
 }
 
-console.log(palindrome("race car"), palindrome("not a palindrome"), palindrome("A man, a plan, a canal. Panama"));
+palindrome("race car");
+palindrome("not a palindrome"); 
+palindrome("A man, a plan, a canal. Panama");
