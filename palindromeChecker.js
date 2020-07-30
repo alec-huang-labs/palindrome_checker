@@ -6,8 +6,4 @@ function palindrome(str) {
     return checker;
 }
 
-console.log(palindrome("0_0 (: /-\ :) 0-0"), palindrome("_eye"));
-//both should return false
-
-
-
+console.log(palindrome("race car"), palindrome("not a palindrome"), palindrome("A man, a plan, a canal. Panama"));
