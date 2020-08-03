@@ -9,4 +9,4 @@ palindrome("almostomla") should return false.
 
 palindrome("A man, a plan, a canal. Panama") should return true.
 
-You can test the function here: 
+You can test the function here: https://repl.it/@alechuang/PalindromeChecker
