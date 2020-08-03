@@ -6,7 +6,8 @@ function palindrome(str) {
     console.log(checker);
     return checker;
 }
-
+//Example Function Calls:
 palindrome("race car");
 palindrome("not a palindrome"); 
 palindrome("A man, a plan, a canal. Panama");
+//Your Function Calls:
